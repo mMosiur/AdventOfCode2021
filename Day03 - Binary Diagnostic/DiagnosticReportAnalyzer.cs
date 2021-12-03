@@ -49,7 +49,7 @@ public class DiagnosticReportAnalyzer
 		return (gammaRate, epsilonRate);
 	}
 
-	private int CalculateFilterBasedRating(Func<int, int, bool> bitSelector)
+	private int CalculateFilterBasedRating(Func<int, int, bool> bitCriterion)
 	{
 		IList<int> numbers = DiagnosticReport;
 		for (int i = _maxBinaryLength - 1; i >= 0; i--)
@@ -59,8 +59,8 @@ public class DiagnosticReportAnalyzer
 			{
 				counts[number.GetBit(i)]++;
 			}
-			int filterBit = bitSelector(counts[0], counts[1]) ? 0 : 1;
-			numbers = numbers.Where(n => n.GetBit(i) == filterBit).ToList();
+			int bit = bitCriterion(counts[0], counts[1]) ? 0 : 1;
+			numbers = numbers.Where(n => n.GetBit(i) == bit).ToList();
 			if (numbers.Count == 1)
 			{
 				return numbers.Single();
