@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using AdventOfCode.Abstractions;
-using AdventOfCode.Abstractions.Extensions;
 
 namespace AdventOfCode.Year2021.Day01;
 
@@ -11,7 +10,7 @@ public class Day01Solver : DaySolver
 
 	public Day01Solver(string inputFilePath) : base(inputFilePath)
 	{
-		_numbers = this.GetInputLines().Select(int.Parse).ToList();
+		_numbers = InputLines.Select(int.Parse).ToList();
 	}
 
 	public override string SolvePart1()

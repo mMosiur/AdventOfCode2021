@@ -12,5 +12,5 @@ string part1 = solver.SolvePart1();
 Console.WriteLine(part1);
 
 Console.Write("Part 2: ");
-string part2 = solver.SolvePart1();
+string part2 = solver.SolvePart2();
 Console.WriteLine(part2);
