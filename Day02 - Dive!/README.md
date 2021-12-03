@@ -1,4 +1,4 @@
-# Day 2: Dive!
+# [Day 2: Dive!](https://adventofcode.com/2021/day/2)
 
 ## Part One
 
