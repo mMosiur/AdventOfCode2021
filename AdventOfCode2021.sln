@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02", "Day02 - Dive!\Day0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03", "Day03 - Binary Diagnostic\Day03.csproj", "{60E0CCB5-756A-4725-B79B-B819C085ACF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04", "Day04 - Giant Squid\Day04.csproj", "{049719E2-B47C-4D1F-A314-A2242425AE88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{60E0CCB5-756A-4725-B79B-B819C085ACF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60E0CCB5-756A-4725-B79B-B819C085ACF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60E0CCB5-756A-4725-B79B-B819C085ACF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049719E2-B47C-4D1F-A314-A2242425AE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049719E2-B47C-4D1F-A314-A2242425AE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049719E2-B47C-4D1F-A314-A2242425AE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049719E2-B47C-4D1F-A314-A2242425AE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
