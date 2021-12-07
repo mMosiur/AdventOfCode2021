@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C83EF12D-4595-45F6-982A-DEC47CD72C42}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "Day01 - Sonar Sweep\Day01.csproj", "{33810DB8-29E7-4832-9649-6145ADBD96EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02", "Day02 - Dive!\Day02.csproj", "{452C1A90-CCE2-4EE1-B94D-F7AF283E4C06}"
@@ -26,6 +28,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C83EF12D-4595-45F6-982A-DEC47CD72C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83EF12D-4595-45F6-982A-DEC47CD72C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83EF12D-4595-45F6-982A-DEC47CD72C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83EF12D-4595-45F6-982A-DEC47CD72C42}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33810DB8-29E7-4832-9649-6145ADBD96EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{33810DB8-29E7-4832-9649-6145ADBD96EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33810DB8-29E7-4832-9649-6145ADBD96EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
