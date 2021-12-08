@@ -28,6 +28,7 @@
     <ProjectReference Include="..\Day05 - Hydrothermal Venture\Day05.csproj" />
     <ProjectReference Include="..\Day06 - Lanternfish\Day06.csproj" />
     <ProjectReference Include="..\Day07 - The Treachery of Whales\Day07.csproj" />
+    <ProjectReference Include="..\Day08 - Seven Segment Search\Day08.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\*\*">
