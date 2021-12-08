@@ -14,40 +14,34 @@ public class Day07Solver : DaySolver
 		_numbers = Input.Split(',').Select(int.Parse).ToList();
 	}
 
-	private int CalculateConstantFuelUsage(int startingPosition, int finalPosition)
+	private int SmallestFuelUsage(CrabFuelUsageCalculator calculator, int minPosition, int maxPosition)
 	{
-		int difference = Math.Abs(finalPosition - startingPosition);
-		return difference;
-	}
-
-	private int CalculateLinearFuelUsage(int startingPosition, int finalPosition)
-	{
-		int difference = Math.Abs(finalPosition - startingPosition);
-		return (difference * (difference + 1)) / 2;
-	}
-
-	private int SmallestFuelUsage(CrabFuelUsageCalculator calculator)
-	{
-		int minPosition = _numbers.Min();
-		int maxPosition = _numbers.Max();
-		int result = Enumerable
+		return Enumerable
 			.Range(minPosition, maxPosition - minPosition + 1)
 			.Select(n => calculator.CalculateAllCrabsFuelUsage(_numbers, n))
 			.Min();
-		return result;
 	}
 
 	public override string SolvePart1()
 	{
 		CrabFuelUsageCalculator calculator = new ConstantCrabFuelUsageCalculator();
-		int result = SmallestFuelUsage(calculator);
+		// Excact answer is the median of positions.
+		double median = Statistics.Median(_numbers.Select(n => (double)n));
+		int minPosition = (int)Math.Floor(median);
+		int maxPosition = (int)Math.Ceiling(median);
+		int result = SmallestFuelUsage(calculator, minPosition, maxPosition);
 		return result.ToString();
 	}
 
 	public override string SolvePart2()
 	{
 		CrabFuelUsageCalculator calculator = new LinearCrabFuelUsageCalculator();
-		int result = SmallestFuelUsage(calculator);
+		// The answer is bounded by [1/2 - k; 1/2 + k] where k is the mean of positions.
+		// As per https://cdn.discordapp.com/attachments/541932275068174359/917882191298592788/crab_submarines.pdf
+		double avarage = _numbers.Average();
+		int minPosition = (int)Math.Floor(avarage - 0.5);
+		int maxPosition = (int)Math.Ceiling(avarage + 0.5);
+		int result = SmallestFuelUsage(calculator, minPosition, maxPosition);
 		return result.ToString();
 	}
 }
