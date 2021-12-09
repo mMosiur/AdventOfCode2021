@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07", "Day07 - The Treach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day08", "Day08 - Seven Segment Search\Day08.csproj", "{CF39C9A6-D123-4C84-AF0E-C85833E788A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day09", "Day09 - Smoke Basin\Day09.csproj", "{2D2858C6-E2B2-4957-8E09-8E77252744E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{CF39C9A6-D123-4C84-AF0E-C85833E788A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF39C9A6-D123-4C84-AF0E-C85833E788A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF39C9A6-D123-4C84-AF0E-C85833E788A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2858C6-E2B2-4957-8E09-8E77252744E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2858C6-E2B2-4957-8E09-8E77252744E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2858C6-E2B2-4957-8E09-8E77252744E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2858C6-E2B2-4957-8E09-8E77252744E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
