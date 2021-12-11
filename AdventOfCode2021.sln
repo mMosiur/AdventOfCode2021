@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day09", "Day09 - Smoke Basi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10", "Day10 - Syntax Scoring\Day10.csproj", "{DE40752E-7862-479D-A35D-D075B91079F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11", "Day11 - Dumbo Octopus\Day11.csproj", "{D74C8322-0ED3-481D-8416-470C72A27DD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{DE40752E-7862-479D-A35D-D075B91079F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE40752E-7862-479D-A35D-D075B91079F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE40752E-7862-479D-A35D-D075B91079F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74C8322-0ED3-481D-8416-470C72A27DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74C8322-0ED3-481D-8416-470C72A27DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74C8322-0ED3-481D-8416-470C72A27DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74C8322-0ED3-481D-8416-470C72A27DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
