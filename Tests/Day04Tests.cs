@@ -4,6 +4,8 @@ using Xunit;
 
 namespace AdventOfCode.Year2021.Tests;
 
+[Trait("Day", "04")]
+[Trait("Day", "4")]
 public class Day04Tests
 {
 	const string BaseDirectory = "Inputs/Day04";
