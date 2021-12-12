@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10", "Day10 - Syntax Sco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11", "Day11 - Dumbo Octopus\Day11.csproj", "{D74C8322-0ED3-481D-8416-470C72A27DD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day12", "Day12 - Passage Pathing\Day12.csproj", "{D202961D-9DCA-48AB-9711-86119B2B5970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{D74C8322-0ED3-481D-8416-470C72A27DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D74C8322-0ED3-481D-8416-470C72A27DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D74C8322-0ED3-481D-8416-470C72A27DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D202961D-9DCA-48AB-9711-86119B2B5970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D202961D-9DCA-48AB-9711-86119B2B5970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D202961D-9DCA-48AB-9711-86119B2B5970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D202961D-9DCA-48AB-9711-86119B2B5970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

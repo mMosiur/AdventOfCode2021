@@ -32,6 +32,7 @@
     <ProjectReference Include="..\Day09 - Smoke Basin\Day09.csproj" />
     <ProjectReference Include="..\Day10 - Syntax Scoring\Day10.csproj" />
     <ProjectReference Include="..\Day11 - Dumbo Octopus\Day11.csproj" />
+    <ProjectReference Include="..\Day12 - Passage Pathing\Day12.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\*\*">
