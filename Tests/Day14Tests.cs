@@ -4,6 +4,7 @@ using Xunit;
 
 namespace AdventOfCode.Year2021.Tests;
 
+[Trait("Year", "2021")]
 [Trait("Day", "14")]
 public class Day14Tests
 {
