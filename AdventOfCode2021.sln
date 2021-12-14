@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day12", "Day12 - Passage Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day13", "Day13 - Transparent Origami\Day13.csproj", "{84FCE78B-1392-4127-954A-821BFCD4CD75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14", "Day14 - Extended Polymerization\Day14.csproj", "{7084A4AE-6E5B-49C6-ADC8-9F66BF42FC41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{84FCE78B-1392-4127-954A-821BFCD4CD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84FCE78B-1392-4127-954A-821BFCD4CD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84FCE78B-1392-4127-954A-821BFCD4CD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7084A4AE-6E5B-49C6-ADC8-9F66BF42FC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7084A4AE-6E5B-49C6-ADC8-9F66BF42FC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7084A4AE-6E5B-49C6-ADC8-9F66BF42FC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7084A4AE-6E5B-49C6-ADC8-9F66BF42FC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
