@@ -61,5 +61,3 @@ public class Day13Tests
 			}
 		};
 }
-
-

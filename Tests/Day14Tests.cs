@@ -32,5 +32,3 @@ public class Day14Tests
 		Assert.Equal(expectedResult, result);
 	}
 }
-
-
