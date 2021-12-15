@@ -35,6 +35,7 @@
     <ProjectReference Include="..\Day12 - Passage Pathing\Day12.csproj" />
     <ProjectReference Include="..\Day13 - Transparent Origami\Day13.csproj" />
     <ProjectReference Include="..\Day14 - Extended Polymerization\Day14.csproj" />
+    <ProjectReference Include="..\Day15 - Chiton\Day15.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\*\*">
