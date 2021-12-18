@@ -37,6 +37,7 @@
     <ProjectReference Include="..\Day14 - Extended Polymerization\Day14.csproj" />
     <ProjectReference Include="..\Day15 - Chiton\Day15.csproj" />
     <ProjectReference Include="..\Day16 - Packet Decoder\Day16.csproj" />
+    <ProjectReference Include="..\Day17 - Trick Shot\Day17.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\*\*">
