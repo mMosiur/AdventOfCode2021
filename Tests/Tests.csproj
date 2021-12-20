@@ -40,6 +40,7 @@
     <ProjectReference Include="..\Day17 - Trick Shot\Day17.csproj" />
     <ProjectReference Include="..\Day18 - Snailfish\Day18.csproj" />
     <ProjectReference Include="..\Day19 - Beacon Scanner\Day19.csproj" />
+    <ProjectReference Include="..\Day20 - Trench Map\Day20.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\*\*">
