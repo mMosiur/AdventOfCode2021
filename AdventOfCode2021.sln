@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
@@ -44,6 +44,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19", "Day19 - Beacon Scanner\Day19.csproj", "{9A8D33C0-4519-4EE8-B0FC-E6596FBD6FEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20", "Day20 - Trench Map\Day20.csproj", "{0A12CD0D-18B4-4F6E-8BFF-F86CC5DA528B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day21", "Day21 - Dirac Dice\Day21.csproj", "{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -138,5 +140,9 @@ Global
 		{0A12CD0D-18B4-4F6E-8BFF-F86CC5DA528B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A12CD0D-18B4-4F6E-8BFF-F86CC5DA528B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A12CD0D-18B4-4F6E-8BFF-F86CC5DA528B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
