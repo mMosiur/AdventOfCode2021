@@ -42,6 +42,7 @@
     <ProjectReference Include="..\Day19 - Beacon Scanner\Day19.csproj" />
     <ProjectReference Include="..\Day20 - Trench Map\Day20.csproj" />
     <ProjectReference Include="..\Day21 - Dirac Dice\Day21.csproj" />
+    <ProjectReference Include="..\Day22 - Reactor Reboot\Day22.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\*\*">

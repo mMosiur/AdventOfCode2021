@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20", "Day20 - Trench Map
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day21", "Day21 - Dirac Dice\Day21.csproj", "{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day22", "Day22 - Reactor Reboot\Day22.csproj", "{AB1A5E3A-6175-4415-8D1D-F5718A974CD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,9 @@ Global
 		{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB1E71F-EEE2-45B8-9EAE-8254B97BB0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1A5E3A-6175-4415-8D1D-F5718A974CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1A5E3A-6175-4415-8D1D-F5718A974CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1A5E3A-6175-4415-8D1D-F5718A974CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1A5E3A-6175-4415-8D1D-F5718A974CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
