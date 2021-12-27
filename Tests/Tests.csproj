@@ -44,6 +44,7 @@
     <ProjectReference Include="..\Day21 - Dirac Dice\Day21.csproj" />
     <ProjectReference Include="..\Day22 - Reactor Reboot\Day22.csproj" />
     <ProjectReference Include="..\Day23 - Amphipod\Day23.csproj" />
+    <ProjectReference Include="..\Day24 - Arithmetic Logic Unit\Day24.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\*\*">
